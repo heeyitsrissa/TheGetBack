@@ -1,0 +1,49 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.pitch-deck-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  min-height: 100vh; /* Ensure the container covers the full viewport height */
+}
+
+.pdf-viewer {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto; /* Adjust the margin to provide space between the elements */
+  text-align: center;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 3rem;
+  color: white;
+  user-select: none;
+  z-index: 10;
+}
+
+.arrow.left {
+  left: 10px; /* Adjust the position to the left of the image */
+}
+
+.arrow.right {
+  right: 10px; /* Adjust the position to the right of the image */
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}

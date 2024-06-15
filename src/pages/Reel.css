@@ -1,0 +1,17 @@
+/* src/pages/Reel.css */
+.reel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-color: #000; /* Optional: Background color */
+  }
+  
+  .reel-video {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  

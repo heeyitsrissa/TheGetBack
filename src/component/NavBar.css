@@ -1,0 +1,40 @@
+
+nav {
+    background-color: black; /* Example background color */
+    padding: 2px; /* Adjust padding as needed */
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-right: 15px; /* Adjust spacing between menu items */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.2em;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Adjust margin top to move logo closer to the top */
+  }
+  
+  .logo-img {
+    width: 175px; /* Adjust the size of the logo */
+    height: auto;
+  }
