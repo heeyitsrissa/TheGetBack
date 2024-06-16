@@ -10,7 +10,7 @@ const About = () => {
           </video>
           <div className='about-content'>
           <div className="quise-bio">
-            <img  className="mj-pic "src='/aboutus/mj-biopic.jpg' alt='Marquise Jackson'/>
+            <img  className="mj-pic "src='/aboutus/quise.png' alt='Marquise Jackson'/>
             <div className="bio-text">
             <h1>Marquise Jackson</h1>
             <h3 className='title' >Creator • Writer • EP</h3>
@@ -24,7 +24,7 @@ const About = () => {
           </div>
           </div>
           <div className='swavy-bio'>
-            <img className='swavy-pic' src='/aboutus/ks-biopic.jpg' alt='Kevon Robertson'/>
+            <img className='swavy-pic' src='/aboutus/swavy.png' alt='Kevon Robertson'/>
             <div className="bio-text">
             <h1>Kevon Robertson</h1>
             <h3 className='title' >Creator • Writer</h3>
