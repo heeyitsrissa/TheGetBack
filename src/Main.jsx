@@ -9,6 +9,7 @@ import AboutUs from './pages/AboutUs';
 import Script from './pages/Script';
 import PitchDeck from './pages/PitchDeck';
 
+
 const router = createBrowserRouter([
   {
     path: '/',

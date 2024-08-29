@@ -59,6 +59,12 @@ const PitchDeck = () => {
           &#10095;
         </div>
       </div>
+
+      <div className="bible-link">
+          <h3>Click Here</h3>
+          <a href="/pitchdeck/TGBBible.pdf" target="_blank" rel="noopener noreferrer"> The Get Back Bible</a>.
+        
+      </div>
     </div>
   );
 };

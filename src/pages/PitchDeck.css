@@ -47,3 +47,21 @@ img {
   display: block;
   border-radius: 10px;
 }
+
+h3{ 
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.bible-link a {
+  color: white;
+  text-decoration: underline; /* Optional: to make the link underlined */
+  font-size: 40px;
+  font-family: 'Silkscreen', cursive;;
+}
+
+.bible-link a:hover {
+  color: grey;
+}
