@@ -78,7 +78,7 @@
     }
 
     .background-video {
-      height: auto;
+      
       min-width: 100vw;
       max-height: 100vh;
       object-fit: cover;
