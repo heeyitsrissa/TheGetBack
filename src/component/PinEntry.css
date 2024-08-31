@@ -78,7 +78,7 @@
     }
 
     .background-video {
-      content: url('/videos/phone-media-background.mov');
+      content: url('/videos/gb-login.mov');
       width: 100vw;
       height: 100vh;
       object-fit: contain;
