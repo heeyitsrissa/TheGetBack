@@ -1,5 +1,6 @@
 public/videos/gb-login.mp4 filter=lfs diff=lfs merge=lfs -text
 public/videos/GetBack-reel.mp4 filter=lfs diff=lfs merge=lfs -text
 public/videos/tgb-about.mp4 filter=lfs diff=lfs merge=lfs -text
+public/videos/phone-media-background.mov filter=lfs diff=lfs merge=lfs -text
 *.mov filter=lfs diff=lfs merge=lfs -text
 *.webm filter=lfs diff=lfs merge=lfs -text

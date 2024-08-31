@@ -18,7 +18,7 @@ const PinEntry = ({ onPinSubmit }) => {
     <div className="pin-entry-container">
       <video autoPlay muted loop playsInline className="background-video" id="backgroundVideo">
         <source src="/videos/gb-login.mp4" type="video/mp4" />
-        <source src="/videos/gb-login.mov" type="video/quicktime" />
+        <source src="/videos/phone-media-background.mov" type="video/quicktime" />
         Your browser does not support the video tag.
       </video>
       <div className="pin-entry-content">
