@@ -12,7 +12,6 @@ const Reel = () => {
       {isAuthenticated ? (
         <video autoPlay loop className="reel-video">
           <source src="/videos/GetBack-reel.mp4" type="video/mp4" />
-          <source src="/videos/GetBack-reel.mov" type="video/quicktime" />
           Your browser does not support the video tag.
         </video>
       ) : (
