@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   const handlePinSubmit = (pin) => {
-    const validPin = '718'; // Replace with your actual logic to check the pin
+    const validPin = '888'; // Replace with your actual logic to check the pin
     if (pin === validPin) {
       setIsAuthenticated(true);
     } else {
